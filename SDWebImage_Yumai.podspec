@@ -92,7 +92,7 @@ New sdwebimage
   #
 
   spec.source_files  = "SDWebImage_Yumai", "SDWebImage/**/*.{h,m}","WebImage/**/*.{h,m}"
-# ['SDWebImage/**/*.{h,m}','WebImage/**/*.{h,m}']
+
   spec.exclude_files = "SDWebImage_Yumai/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
