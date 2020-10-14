@@ -65,7 +65,7 @@ New sdwebimage
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -91,7 +91,7 @@ New sdwebimage
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SDWebImage_Yumai", "SDWebImage_Yumai/**/*.{h,m}"
+  spec.source_files  = "SDWebImage_Yumai", ["SDWebImage/**/*.{h,m}","WebImage/**/*.{h,m}"]
   spec.exclude_files = "SDWebImage_Yumai/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
