@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-#import <SDWebImage/SDWebImageCompat.h>
+#import <SDWebImage_Yumai/SDWebImageCompat.h>
 
 //! Project version number for SDWebImage.
 FOUNDATION_EXPORT double SDWebImageVersionNumber;
@@ -17,73 +17,73 @@ FOUNDATION_EXPORT const unsigned char SDWebImageVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SDWebImage/PublicHeader.h>
 
-#import <SDWebImage/SDWebImageManager.h>
-#import <SDWebImage/SDWebImageCacheKeyFilter.h>
-#import <SDWebImage/SDWebImageCacheSerializer.h>
-#import <SDWebImage/SDImageCacheConfig.h>
-#import <SDWebImage/SDImageCache.h>
-#import <SDWebImage/SDMemoryCache.h>
-#import <SDWebImage/SDDiskCache.h>
-#import <SDWebImage/SDImageCacheDefine.h>
-#import <SDWebImage/SDImageCachesManager.h>
-#import <SDWebImage/UIView+WebCache.h>
-#import <SDWebImage/UIImageView+WebCache.h>
-#import <SDWebImage/UIImageView+HighlightedWebCache.h>
-#import <SDWebImage/SDWebImageDownloaderConfig.h>
-#import <SDWebImage/SDWebImageDownloaderOperation.h>
-#import <SDWebImage/SDWebImageDownloaderRequestModifier.h>
-#import <SDWebImage/SDWebImageDownloaderResponseModifier.h>
-#import <SDWebImage/SDWebImageDownloaderDecryptor.h>
-#import <SDWebImage/SDImageLoader.h>
-#import <SDWebImage/SDImageLoadersManager.h>
-#import <SDWebImage/UIButton+WebCache.h>
-#import <SDWebImage/SDWebImagePrefetcher.h>
-#import <SDWebImage/UIView+WebCacheOperation.h>
-#import <SDWebImage/UIImage+Metadata.h>
-#import <SDWebImage/UIImage+MultiFormat.h>
-#import <SDWebImage/UIImage+MemoryCacheCost.h>
-#import <SDWebImage/UIImage+ExtendedCacheData.h>
-#import <SDWebImage/SDWebImageOperation.h>
-#import <SDWebImage/SDWebImageDownloader.h>
-#import <SDWebImage/SDWebImageTransition.h>
-#import <SDWebImage/SDWebImageIndicator.h>
-#import <SDWebImage/SDImageTransformer.h>
-#import <SDWebImage/UIImage+Transform.h>
-#import <SDWebImage/SDAnimatedImage.h>
-#import <SDWebImage/SDAnimatedImageView.h>
-#import <SDWebImage/SDAnimatedImageView+WebCache.h>
-#import <SDWebImage/SDAnimatedImagePlayer.h>
-#import <SDWebImage/SDImageCodersManager.h>
-#import <SDWebImage/SDImageCoder.h>
-#import <SDWebImage/SDImageAPNGCoder.h>
-#import <SDWebImage/SDImageGIFCoder.h>
-#import <SDWebImage/SDImageIOCoder.h>
-#import <SDWebImage/SDImageFrame.h>
-#import <SDWebImage/SDImageCoderHelper.h>
-#import <SDWebImage/SDImageGraphics.h>
-#import <SDWebImage/SDGraphicsImageRenderer.h>
-#import <SDWebImage/UIImage+GIF.h>
-#import <SDWebImage/UIImage+ForceDecode.h>
-#import <SDWebImage/NSData+ImageContentType.h>
-#import <SDWebImage/SDWebImageDefine.h>
-#import <SDWebImage/SDWebImageError.h>
-#import <SDWebImage/SDWebImageOptionsProcessor.h>
-#import <SDWebImage/SDImageIOAnimatedCoder.h>
-#import <SDWebImage/SDImageHEICCoder.h>
-#import <SDWebImage/SDImageAWebPCoder.h>
+#import <SDWebImage_Yumai/SDWebImageManager.h>
+#import <SDWebImage_Yumai/SDWebImageCacheKeyFilter.h>
+#import <SDWebImage_Yumai/SDWebImageCacheSerializer.h>
+#import <SDWebImage_Yumai/SDImageCacheConfig.h>
+#import <SDWebImage_Yumai/SDImageCache.h>
+#import <SDWebImage_Yumai/SDMemoryCache.h>
+#import <SDWebImage_Yumai/SDDiskCache.h>
+#import <SDWebImage_Yumai/SDImageCacheDefine.h>
+#import <SDWebImage_Yumai/SDImageCachesManager.h>
+#import <SDWebImage_Yumai/UIView+WebCache.h>
+#import <SDWebImage_Yumai/UIImageView+WebCache.h>
+#import <SDWebImage_Yumai/UIImageView+HighlightedWebCache.h>
+#import <SDWebImage_Yumai/SDWebImageDownloaderConfig.h>
+#import <SDWebImage_Yumai/SDWebImageDownloaderOperation.h>
+#import <SDWebImage_Yumai/SDWebImageDownloaderRequestModifier.h>
+#import <SDWebImage_Yumai/SDWebImageDownloaderResponseModifier.h>
+#import <SDWebImage_Yumai/SDWebImageDownloaderDecryptor.h>
+#import <SDWebImage_Yumai/SDImageLoader.h>
+#import <SDWebImage_Yumai/SDImageLoadersManager.h>
+#import <SDWebImage_Yumai/UIButton+WebCache.h>
+#import <SDWebImage_Yumai/SDWebImagePrefetcher.h>
+#import <SDWebImage_Yumai/UIView+WebCacheOperation.h>
+#import <SDWebImage_Yumai/UIImage+Metadata.h>
+#import <SDWebImage_Yumai/UIImage+MultiFormat.h>
+#import <SDWebImage_Yumai/UIImage+MemoryCacheCost.h>
+#import <SDWebImage_Yumai/UIImage+ExtendedCacheData.h>
+#import <SDWebImage_Yumai/SDWebImageOperation.h>
+#import <SDWebImage_Yumai/SDWebImageDownloader.h>
+#import <SDWebImage_Yumai/SDWebImageTransition.h>
+#import <SDWebImage_Yumai/SDWebImageIndicator.h>
+#import <SDWebImage_Yumai/SDImageTransformer.h>
+#import <SDWebImage_Yumai/UIImage+Transform.h>
+#import <SDWebImage_Yumai/SDAnimatedImage.h>
+#import <SDWebImage_Yumai/SDAnimatedImageView.h>
+#import <SDWebImage_Yumai/SDAnimatedImageView+WebCache.h>
+#import <SDWebImage_Yumai/SDAnimatedImagePlayer.h>
+#import <SDWebImage_Yumai/SDImageCodersManager.h>
+#import <SDWebImage_Yumai/SDImageCoder.h>
+#import <SDWebImage_Yumai/SDImageAPNGCoder.h>
+#import <SDWebImage_Yumai/SDImageGIFCoder.h>
+#import <SDWebImage_Yumai/SDImageIOCoder.h>
+#import <SDWebImage_Yumai/SDImageFrame.h>
+#import <SDWebImage_Yumai/SDImageCoderHelper.h>
+#import <SDWebImage_Yumai/SDImageGraphics.h>
+#import <SDWebImage_Yumai/SDGraphicsImageRenderer.h>
+#import <SDWebImage_Yumai/UIImage+GIF.h>
+#import <SDWebImage_Yumai/UIImage+ForceDecode.h>
+#import <SDWebImage_Yumai/NSData+ImageContentType.h>
+#import <SDWebImage_Yumai/SDWebImageDefine.h>
+#import <SDWebImage_Yumai/SDWebImageError.h>
+#import <SDWebImage_Yumai/SDWebImageOptionsProcessor.h>
+#import <SDWebImage_Yumai/SDImageIOAnimatedCoder.h>
+#import <SDWebImage_Yumai/SDImageHEICCoder.h>
+#import <SDWebImage_Yumai/SDImageAWebPCoder.h>
 
 // Mac
-#if __has_include(<SDWebImage/NSImage+Compatibility.h>)
-#import <SDWebImage/NSImage+Compatibility.h>
+#if __has_include(<SDWebImage_Yumai/NSImage+Compatibility.h>)
+#import <SDWebImage_Yumai/NSImage+Compatibility.h>
 #endif
-#if __has_include(<SDWebImage/NSButton+WebCache.h>)
-#import <SDWebImage/NSButton+WebCache.h>
+#if __has_include(<SDWebImage_Yumai/NSButton+WebCache.h>)
+#import <SDWebImage_Yumai/NSButton+WebCache.h>
 #endif
-#if __has_include(<SDWebImage/SDAnimatedImageRep.h>)
-#import <SDWebImage/SDAnimatedImageRep.h>
+#if __has_include(<SDWebImage_Yumai/SDAnimatedImageRep.h>)
+#import <SDWebImage_Yumai/SDAnimatedImageRep.h>
 #endif
 
 // MapKit
-#if __has_include(<SDWebImage/MKAnnotationView+WebCache.h>)
-#import <SDWebImage/MKAnnotationView+WebCache.h>
+#if __has_include(<SDWebImage_Yumai/MKAnnotationView+WebCache.h>)
+#import <SDWebImage_Yumai/MKAnnotationView+WebCache.h>
 #endif
